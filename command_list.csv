@@ -1,0 +1,55 @@
+    1  touch file.txt
+    2  cd Gitbash
+    3  git config --global user.name "Lazarenko Olexandr"
+    4  git config --global user.email lazar324@gmail.com
+    5  git clone https://github.com/lazar324-debug/HW_10.git
+    6  cd HW_10
+    7  touch text_ignore.txt
+    8  HW_10 status
+    9  git status
+   10  git add text_ignore.txt
+   11  git status
+   12  nano .gitignore
+   13  git status
+   14  git add
+   15  git add .gitignore
+   16  git status
+   17  git commit - m "Task_1 done"
+   18  git commit -m "Task_1"
+   19  touch main_test.txt
+   20  git add
+   21  git add main_test.txt
+   22  git status
+   23  git commit -m "Task_2"
+   24  git status
+   25  git log
+   26  git branch
+   27  git checkout -b develop
+   28  git branch
+   29  git checkout main
+   30  git branch
+   31  git checkout develop
+   32  git branch
+   33  touch develop_test.txt
+   34  git add
+   35  git add develop_test.text
+   36  git status
+   37  git add develop_test.txt
+   38  git status
+   39  git commit -m "Task 3.4"
+   40  nano develop_test.txt
+   41  git status
+   42  git add develop_test.txt
+   43  git status
+   44  git commit -m "Task 3.8"
+   45  git branch
+   46  gat checkout branch main
+   47  git checkout main
+   48  git branch
+   49  git marge develop
+   50  git merge develop
+   51  git status
+   52  git log
+   53  git status
+   54  git push
+   55  history > command_list.csv
